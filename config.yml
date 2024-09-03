@@ -1,0 +1,28 @@
+source: "/mnt/h/Download/"
+
+shows:
+  - name: "theleftovers"
+    dest_path: "/mnt/h/Video/Serie/The Leftovers"
+  - name: "genius"
+    dest_path: "/mnt/h/Video/Serie/Genius"
+  - name: "darkmatter"
+    dest_path: "/mnt/h/Video/Serie/Dark Matter"
+  - name: "fargo"
+    dest_path: "/mnt/h/Video/Serie/Fargo"
+  - name: "houseofthedragon"
+    dest_path: "/mnt/h/Video/Serie/House of the Dragon"
+  - name: "curbyourenthusiasm"
+    dest_path: "/mnt/h/Video/Serie/Curb Your Enthusiasm"
+  - name: "barry"
+    dest_path: "/mnt/h/Video/Serie/Barry"
+  - name: "theboys"
+    dest_path: "/mnt/h/Video/Serie/The Boys"
+  - name: "law&ordercriminalintent"
+    dest_path: "/mnt/h/Video/Serie/Law and order Criminal intent"
+  - name: "law&ordersvu"
+    dest_path: "/mnt/h/Video/Serie/Law and order SVU"
+
+garbage_files:
+  - "[TGx]Downloaded from torrentgalaxy.to .txt"
+  - "NEW upcoming releases by Xclusive.txt"
+  - "*.nfo"
