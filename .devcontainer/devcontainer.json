@@ -1,13 +1,17 @@
 {
     "name": "Python Dev Container",
     "image": "mcr.microsoft.com/vscode/devcontainers/python:3.12",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-azuretools.vscode-docker"
+            ]
+        }
     },
-    "extensions": [
-        "ms-python.python",
-        "ms-azuretools.vscode-docker"
-    ],
     "postCreateCommand": "pip install -r requirements.txt",
     "remoteUser": "vscode"
 }

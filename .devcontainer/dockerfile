@@ -1,5 +1,0 @@
-# Use the official Python image from the Docker Hub
-FROM mcr.microsoft.com/vscode/devcontainers/python:3.9
-
-# Install any additional dependencies
-RUN pip install --upgrade pip
