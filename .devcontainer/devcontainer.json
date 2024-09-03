@@ -13,5 +13,9 @@
         }
     },
     "postCreateCommand": "pip install -r requirements.txt",
-    "remoteUser": "vscode"
+    "remoteUser": "vscode",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+        "source=/mnt/h,target=/mnt/h,type=bind,consistency=cached"
+    ]
 }
